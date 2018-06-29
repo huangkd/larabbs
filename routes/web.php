@@ -11,6 +11,10 @@
 |
 */
 
+/* 【第2.6章 基础布局-主要布局文件 ﻿绑定路由
 Route::get('/', function () {
     return view('welcome');
 });
+第2.6章 基础布局-主要布局文件 ﻿绑定路由】*/
+// 第2.6章 基础布局-主要布局文件 ﻿绑定路由
+Route::get('/', 'PagesController@root')->name('root');
